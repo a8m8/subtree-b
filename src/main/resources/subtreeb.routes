@@ -7,3 +7,4 @@ GET         /assets/*file               controllers.Assets.at(path="/public", fi
 
 # BUSINESS LOGIC MAPPINGS:
 GET         /b                          @controllers.BInitResource.index
+GET         /content                    @controllers.BManiContentResource.showMainContent
